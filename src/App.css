@@ -1,0 +1,44 @@
+#root {
+  font-family: sans-serif;
+  font-size: 20px;
+  background-color: #95b8d1;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  width: 700px;
+  height: 350px;
+  background-color: aliceblue;
+}
+
+input {
+  width: 90%;
+  height: 30px;
+}
+
+button {
+  background-color: #95b8d1;
+  border: none;
+  border-radius: 5px;
+  padding: 11px 20px;
+  margin: 10px;
+  color: white;
+  margin-right: 5px;
+}
+
+.msg {
+  color: #95b8d1;
+  text-transform: uppercase;
+}
+
+.alert {
+  display: block;
+  width: 60%;
+  margin: auto;
+  background-color: rgba(255, 0, 0, 0.2);
+  padding: 10px 60px;
+  color: red;
+}
